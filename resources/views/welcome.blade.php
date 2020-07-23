@@ -42,7 +42,7 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto" style="font-size: 25px;"><a href="{{ url('/') }}"> <img src="https://images.vexels.com/media/users/3/142890/isolated/preview/4ea2d7c4bf3cad23a4f18ee58752deb8-anillos-de-alta-tecnologia-logo-by-vexels.png" style="width: 30px;height: 30px;margin-top: -8px;"><strong> CyberColege</strong></a></h1>
+      <h1 class="logo mr-auto" style="font-size: 25px;"><a href="{{ url('/') }}"><strong> CyberColege</strong></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -58,7 +58,7 @@
             </ul>
           </li>
           <li><a href="#team">Desarrolladores</a></li>
-          <li><a href="">Blog</a></li>
+          <li><a href="{{ url('/blog') }}">Blog</a></li>
           <li><a href="#contact">Contacto</a></li>
 
         </ul>
@@ -70,7 +70,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+ <section id="hero" class="d-flex align-items-center">
 
     <div class="container">
       <div class="row">
@@ -79,7 +79,7 @@
           <h2>Creadores de app para colegios privados conectando a Padre - Alumno - Colegio</h2>
           <div class="d-lg-flex">
             <a href="#about" class="btn-get-started scrollto">Iniciar</a>
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> Video <i class="icofont-play-alt-2"></i></a>
+            <a href="https://www.youtube.com/watch?v=js2eI7hAngY&feature=youtu.be" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> Video <i class="icofont-play-alt-2"></i></a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
